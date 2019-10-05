@@ -1,13 +1,85 @@
 /* CSS CODE HERE */
 
-#navbar
+/* Nav Bar */
+#background
 {
     display: inline-block;
+    text-indent: -9999px;
+    width: 100px;
+    height: 82px;
+    background: url(images/link_in.svg);
+    background-size: 100px 82px;
 }
 
-#text
+#navbar
 {
+    position: absolute;
+    top: 0%;
+    left: 90%;
+}
+
+#navbar ul{
     
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+    float: right;
+}
+
+#navbar li
+{
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-top: 6px;
 }
 
 
+#border
+{   
+    text-align: center;
+    border-radius: 2px;
+    border: 2px solid #0073b1;
+    color: #0073b1;
+    padding: 0px 15px;
+    padding-top: 0px;
+}
+/* Nav bar */
+
+/* Hero */
+
+#header
+{
+    margin-top: 200px;
+    margin-left: 200px;
+    width: 800px;
+    font-size: 40px;
+    color: #2977c9;
+    padding-bottom: 20px;
+
+}
+
+#search
+{
+    margin-left: 200px;
+    border: 2px solid black;
+    width: 650px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#search img{
+    height: 40px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+#search p
+{
+    position: absolute;
+    top: 658px;
+    left: 300px;
+}
