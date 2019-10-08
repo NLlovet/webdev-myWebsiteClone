@@ -5,6 +5,7 @@
     margin-left: 100px;
 }
 
+
 /* Nav Bar */
 .nav
 {
@@ -175,6 +176,33 @@
 
 #post
 {
+    margin-top: 0;
     background-color: #f1ece5;
     height: 300px;
 }
+
+#post h2
+{   
+    margin-top: 0;
+    color: #B24020;
+    padding-top: 50px;
+    padding-left: 100px;
+    width: 400px; 
+    font-size: 64px;
+    font-weight: 400;
+}
+
+#pill
+{
+    border-radius: 28px;
+    border: solid 1px rgba(0,0,0,0.6);
+    width: 100px;
+    position: absolute;
+    top: 1500px;
+    left: 1000px;
+    padding-left: 30px;
+    color: rgba(0,0,0,0.6);
+    font-size: 24px;
+    padding-left: 10px;
+}
+/* Post */
