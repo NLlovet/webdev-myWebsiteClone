@@ -270,7 +270,7 @@
 
 /* Skills */
 
-/* Who*/
+/* Who */
 
 #who
 {
@@ -279,9 +279,24 @@
     width: 50%;
 }
 
-#find
+.find
 {
     background-color: #f1ece5;
     border-radius: 5px;
-    border: 
+    border: 3px solid #f1ece5;
+    color: rgba(0,0,0,0.9);
+    margin: 6px 20px 6px 18px;
+}
+
+/* Who */
+
+/* community */
+
+#community
+{
+  height: 500px;
+  width: 100%;
+  background-color: blue;
+  color: #B24020;
+  margin: 0 0 0 300px;
 }
