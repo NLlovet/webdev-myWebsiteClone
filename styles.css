@@ -211,5 +211,124 @@
 
 #skill
 {
-    
+    display: block;
+    height: 600px;
+    width: 100%;
+    min-height: 840px;
+    display: block;
+}
+
+#skill2
+{
+    position: absolute;
+    left: 400px;
+    top: 1800px;
+    width: 400px;
+    height: 500px;
+    padding: 0px;
+
+}
+
+#skill3
+{
+    position: absolute;
+    left: 1300px;
+    top: 1800px;
+    width: 400px;
+    height: 500px;
+    padding: 0px;
+}
+
+
+#pill2
+{
+    position: absolute;
+    top: 2200px;
+    border: 2px solid #2977c9;
+    background-color: #2977c9;
+    color: white;
+    border-radius: 28px;    
+    width: 225px;
+    vertical-align: center;
+    text-align: center;
+    padding: 20px; 
+    font-weight: normal;
+    margin-left: 500px;
+}
+
+#topic
+{
+    border: 1px solid rgba(0,0,0,0.15);
+    border-radius: 5px;
+    width: 360px;
+    font-weight: normal;    
+    padding: 16px 12px 16px 16px;
+    position: absolute;
+    top: 2225px;
+    margin-left: 1200px;
+}
+
+/* Skills */
+
+/* Who */
+
+#who
+{
+    background-color: #faf9f7;
+    height: 500px;
+    width: 50%;
+}
+
+.find
+{
+    background-color: #f1ece5;
+    border-radius: 5px;
+    border: 3px solid #f1ece5;
+    color: rgba(0,0,0,0.9);
+    margin: 6px 20px 6px 18px;
+}
+
+/* Who */
+
+/* community */
+
+#community
+{
+  height: 500px;
+  width: 73%;
+  background-color: #F4FAFF;
+  color: #B24020;
+  margin: 0 0 0 500px;
+}
+
+#community iframe
+{
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    left: 10px;
+}
+
+/* community */
+
+/* join */
+
+#join
+{
+    height: 300px;
+    width: 100%;
+}
+
+#round
+{
+    background-color: #2977c9;
+    border-radius: 28px;
+    border: solid 1px #2977c9;
+    margin: 50px 0 0 40px;
+    padding: 20px 0 0 0;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+
 }
