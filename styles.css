@@ -5,6 +5,18 @@
     margin-left: 100px;
 }
 
+body
+{
+ font-family: font-family: -apple-system,system-ui,BlinkMacSystemFont,
+ "Segoe UI",Roboto,"Helvetica Neue","Fira Sans",Ubuntu,Oxygen,
+ "Oxygen Sans",Cantarell,"Droid Sans","Apple Color Emoji",
+ "Segoe UI Emoji","Segoe UI Emoji","Segoe UI Symbol","Lucida Grande",
+ Helvetica,Arial,sans-serif;
+}
+
+
+}
+
 
 /* Nav Bar */
 .nav
@@ -276,8 +288,9 @@
 {
     margin-top: 200px;
     background-color: #faf9f7;
-    height: 800px;
+    height: 600px;
     width: 50%;
+    margin-bottom: 100px;
 }
 
 .find
@@ -304,25 +317,27 @@
 
 #community
 {
-  height: 500px;
-  width: 73%;
+  height: 700px;
+  width: 63.3%;
   background-color: #F4FAFF;
   color: #B24020;
-  margin: 0 0 0 500px;
+  margin: 0 0 100px 700px;
+
 }
 
 #community iframe
 {
     height: 500px;
-    width: 500px;
+    width: 700px;
     position: absolute;
-    left: 10px;
+    left: 60px;
+    top: 3600px;
 }
 
 /* community */
 
 /* join */
-
+/*
 #join
 {
     height: 300px;
@@ -342,7 +357,7 @@
     vertical-align: middle;
 
 }
-
+*/
 /* join */
 
 /* Footer nav */
@@ -350,6 +365,7 @@
 #footnav
 {
     background-image: url(images/link_in.svg);
+    margin-bottom: 1px solid grey;
 }
 
 .nav ul
@@ -381,3 +397,29 @@
 }
 /* Footer nav */
 
+#lastnav ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   
+}
+
+#lastnav li
+{
+    display: block;
+    text-align: center;
+    float: left;
+    margin: 0px 20px 0px 10px;
+    vertical-align: middle;
+}
+
+.increase
+{
+    height: 30px;
+    width: 90px;
+    margin-left: 200px;
+    padding-left: 50px;
+}
+/* Footer nav */
