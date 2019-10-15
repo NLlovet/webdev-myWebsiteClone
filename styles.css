@@ -274,8 +274,9 @@
 
 #who
 {
+    margin-top: 200px;
     background-color: #faf9f7;
-    height: 500px;
+    height: 800px;
     width: 50%;
 }
 
@@ -286,6 +287,15 @@
     border: 3px solid #f1ece5;
     color: rgba(0,0,0,0.9);
     margin: 6px 20px 6px 18px;
+}
+
+#guy
+{
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    top: 2600px;
+    left: 1200px;
 }
 
 /* Who */
@@ -332,3 +342,42 @@
     vertical-align: middle;
 
 }
+
+/* join */
+
+/* Footer nav */
+
+#footnav
+{
+    background-image: url(images/link_in.svg);
+}
+
+.nav ul
+{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+    display: inline-block;
+    text-align: left;
+    margin: 10px 30px 30px 30px;
+    padding: 30px;
+    
+}
+
+#browse
+{
+    padding-bottom: 35px;
+}
+
+#solute
+{
+    padding-bottom: 50px;
+}
+
+#member
+{
+    padding-bottom: 10px;
+}
+/* Footer nav */
+
